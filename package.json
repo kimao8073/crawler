@@ -1,0 +1,20 @@
+{
+  "name": "kakao-together-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "discover:api": "node src/discover-api.js",
+    "crawl:now:md": "node src/cli.js now --format md --out out/fundraisings-now.md",
+    "crawl:now:json": "node src/cli.js now --format json --out out/fundraisings-now.json",
+    "crawl:now:csv": "node src/cli.js now --format csv --out out/fundraisings-now.csv",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.59.0"
+  }
+}
