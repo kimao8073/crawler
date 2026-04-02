@@ -1,4 +1,4 @@
-# kakao-together-crawler
+# crawler
 
 Node.js 라이브러리 + CLI로 아래 3개 사이트의 리스트를 끝까지 수집합니다.
 
